@@ -31,7 +31,7 @@ plt.tight_layout(pad=0.4, w_pad=0.5, h_pad=5.0)
 #####################################################################
 sns.set(rc={'figure.figsize':(11.7,8.27)})
 sns.distplot(data['medv'], bins=30)
-st.pyplot()
+st.pyplot(fig)
 
 #######**********#CORRELATION MATRIX****** ########
 data.corr()
