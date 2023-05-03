@@ -1,5 +1,7 @@
 matplotlib
 pandas
+numpy
 scikit-learn
 mlem
 seaborn
+streamlit
